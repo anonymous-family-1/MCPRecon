@@ -39,7 +39,7 @@ python3 mcprecon_gui.py sample.jsonl
 ```
 
 GUI example output: `tool_screenshot.png`
-![MCPRecon GUI screenshot](tool_screenshot.png)
+![MCPRecon GUI screenshot](tool/tool_screenshot.png)
 
 ## Quick start (CLI)
 ```bash
