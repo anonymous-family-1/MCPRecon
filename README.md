@@ -6,6 +6,7 @@ Self-contained tooling to carve MCP/JSON-RPC traffic from raw memory images and 
 - `mcprecon.py` – CLI carver that scans a memory image and emits newline-delimited JSON (`.jsonl`).
 - `mcprecon_gui.py` – Tkinter GUI that can run `mcprecon.py` and browse the resulting JSONL.
 - Sample artifacts (`*.vmem`) for testing; `sample.vmem` is a symlink to an included snapshot for quick trials.
+- Optional sample snapshot download (Google Drive) for quick runs.
 - `tool_screenshot.png` – example GUI output.
 
 ## Requirements
@@ -37,6 +38,8 @@ python3 mcprecon_gui.py  # choose sample.vmem as the memory image, output e.g. s
 # later, reopen:
 python3 mcprecon_gui.py sample.jsonl
 ```
+Sample snapshot download (Google Drive):
+`https://drive.google.com/file/d/16d84BfG19auxwERKwajmNnDD0gVYo2Q9/view?usp=sharing`
 
 GUI example output: `tool_screenshot.png`
 ![MCPRecon GUI screenshot](tool/tool_screenshot.png)
